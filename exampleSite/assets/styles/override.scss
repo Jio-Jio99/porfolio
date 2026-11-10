@@ -7,3 +7,246 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+// ---------- Progetti: anteprime intere, stesse proporzioni, senza zoom ----------
+.projects-section .card {
+  .card-head {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-color: get-light-color('bg-primary');
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-img-top,
+  &:hover .card-img-top,
+  &:focus .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: none;
+  }
+
+  // card della stessa altezza: la descrizione cresce, i tag restano in fondo
+  .card-body {
+    display: flex;
+    flex-direction: column;
+
+    p { flex: 1 1 auto; }
+  }
+}
+.projects-section .filtr-item > .card > .card {
+  display: flex;
+  flex-direction: column;
+
+  .card-body { flex: 1 1 auto; }
+}
+
+// ---------- Chi sono: pulsante CV accanto ai contatti ----------
+.about-section {
+  .text-container {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+
+  .text-container + a .btn {
+    vertical-align: middle;
+  }
+}
+
+// ---------- Chi sono: anello colorato che ruota al posto della barra di caricamento ----------
+@keyframes ring-spin {
+  to { transform: rotate(360deg); }
+}
+
+.about-section .circular-progress {
+  --ring: #{get-light-color('accent-color')};
+  --ring-track: rgba(128, 128, 128, 0.15);
+
+  &.blue   { --ring: #048dff; }
+  &.yellow { --ring: #eebb4d; }
+  &.pink   { --ring: #ed63d2; }
+  &.green  { --ring: #2dca73; }
+  &.sky    { --ring: #00c9e3; }
+  &.orange { --ring: #ff7c7c; }
+
+  .circular-progress-left,
+  .circular-progress-right {
+    display: none;
+  }
+
+  &::after {
+    border: 0;
+    background: conic-gradient(var(--ring) 0 70%, var(--ring-track) 70% 100%);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 11px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 11px));
+    animation: ring-spin 7s linear infinite;
+  }
+
+  &:hover::after {
+    animation-duration: 2s;
+  }
+}
+
+html[data-theme='dark'] .about-section .circular-progress::after {
+  border: 0;
+}
+
+// ---------- Pulsanti: bordo accentuato, colore di accento ----------
+.btn-dark {
+  background-color: transparent !important;
+  border: 2px solid get-light-color('accent-color') !important;
+  color: get-light-color('accent-color') !important;
+  font-weight: 600;
+  border-radius: 0.5rem;
+
+  &:hover,
+  &:focus,
+  &.active {
+    background-color: get-light-color('accent-color') !important;
+    border-color: get-light-color('accent-color') !important;
+    color: get-light-color('text-over-accent-color') !important;
+  }
+}
+
+.btn-outline-info {
+  --bs-btn-border-width: 2px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+html[data-theme='dark'] {
+  .btn-dark {
+    border-color: get-dark-color('hover-over-accent-color') !important;
+    color: get-dark-color('hover-over-accent-color') !important;
+
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: get-dark-color('hover-over-accent-color') !important;
+      color: get-dark-color('inverse-text-color') !important;
+    }
+  }
+}
+
+// ---------- Esperienze: su telefono linea temporale a sinistra, testo compatto ----------
+@include media('<=small') {
+  .experiences-section {
+    .container {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+
+    .timeline {
+      &.text-justify {
+        text-align: left !important;
+      }
+
+      // una riga per esperienza: numero a sinistra, contenuto a destra
+      .row:not(.horizontal-line) {
+        flex-wrap: nowrap;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        padding-bottom: 1.75rem;
+
+        & > .col-10 {
+          flex: 1 1 auto;
+          width: auto;
+          max-width: none;
+          padding-left: 0.75rem;
+          padding-right: 0;
+        }
+      }
+
+      .vertical-line {
+        visibility: visible;
+        order: -1;
+        flex: 0 0 2.75rem;
+        width: 2.75rem;
+        max-width: 2.75rem;
+        padding: 0;
+        position: relative;
+        align-items: flex-start;
+
+        // linea continua dietro i numeri
+        &::before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 0;
+          bottom: -1.75rem;
+          border-left: 3px solid get-light-color('accent-color');
+          transform: translateX(-50%);
+          z-index: 1;
+        }
+        &::after {
+          display: none;
+        }
+
+        .circle {
+          padding: 0.25rem 0;
+          width: 2rem;
+          height: 2rem;
+          max-height: 2rem;
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+          margin-top: 0.15rem;
+        }
+      }
+
+      .row:not(.horizontal-line):last-child .vertical-line::before {
+        bottom: auto;
+        height: 100%;
+      }
+
+      .horizontal-line {
+        display: none;
+      }
+    }
+
+    .company-heading {
+      h5 {
+        display: block;
+        font-size: 1.05rem;
+        margin-bottom: 0.1rem;
+      }
+      p {
+        display: block;
+        font-size: 0.85rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+
+    // panoramica dell'azienda e titolo "Responsabilità" nascosti per compattezza
+    .experience-entry-heading > p:not(.text-muted),
+    .positions h6 {
+      display: none;
+    }
+
+    .experience-entry-heading > p.text-muted {
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .positions .company-heading {
+      margin-top: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.1rem;
+      margin-bottom: 0.5rem;
+
+      & > li {
+        font-size: 0.92rem;
+        line-height: 1.4;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] .experiences-section .timeline .vertical-line::before {
+  border-left-color: get-dark-color('accent-color');
+}

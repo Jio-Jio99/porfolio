@@ -14,10 +14,9 @@ experiences:
   - designation: Full-Stack Developer (freelance)
     start: Mar 2025
     responsibilities:
-    - Analysis, development and maintenance of web applications for internal management and promotion of the associations' services.
-    - Vue.js frontend, Go backend with Gin and GORM, PostgreSQL database.
-    - Built management tools/CRMs (Women's Empowerment with Nuova Arca, Mete 2) and the [Ancona Solidale](https://anconasolidale.org/) portal.
-    - Deployment with Docker Compose and Caddy, JWT authentication, API documentation with Swagger.
+    - Web apps for internal management and service promotion of non-profit associations.
+    - "Stack: Vue.js, Go (Gin, GORM), PostgreSQL, Docker and Caddy."
+    - "Women's Empowerment CRM (Nuova Arca), Mete 2 platform, [Ancona Solidale](https://anconasolidale.org/) portal."
 
 - company:
     name: '"La Sapienza" University of Rome'
@@ -29,9 +28,9 @@ experiences:
     start: Jan 2025
     end: Jun 2025
     responsibilities:
-    - Assistant to the professor of the Computer Science courses for relations between companies and the university.
+    - Industry relations on behalf of the professor of the Computer Science courses.
     - Managed emails and collaborations with partner companies.
-    - Organised events at Sapienza such as the [IT-Meeting](https://itmeeting.wordpress.com/) and the Lunch Seminars.
+    - Organised events such as the [IT-Meeting](https://itmeeting.wordpress.com/) and the Lunch Seminars.
 
 - company:
     name: Fondazione CNOS-FAP ETS Impresa Sociale
@@ -43,18 +42,17 @@ experiences:
     start: Sep 2025
     end: Jun 2026
     responsibilities:
-    - Teaching cross-curricular IT in vocational training courses.
+    - Cross-curricular IT in vocational training courses.
   - designation: IT Trainer
     start: Jan 2025
     end: Jun 2025
     responsibilities:
-    - Teaching cross-curricular IT in vocational training courses.
+    - Cross-curricular IT in vocational training courses.
   - designation: IT Trainer
     start: Apr 2024
     end: Jun 2024
     responsibilities:
-    - "Science: basic physics."
-    - "Computer science: introduction to programming with Scratch and Lego Mindstorm."
+    - Basic physics and first steps in programming with Scratch and Lego Mindstorm.
 
 - company:
     name: Centro Astalli
@@ -66,17 +64,17 @@ experiences:
     start: Mar 2024
     end: May 2024
     responsibilities:
-    - Teaching migrants the basics of using a PC, from switching it on to using Google and its applications.
+    - PC basics for migrants, from switching it on to Google tools.
   - designation: Basic IT Course Teacher
     start: Mar 2023
     end: May 2023
     responsibilities:
-    - Teaching migrants the basics of using a PC, from switching it on to using Google and its applications.
+    - PC basics for migrants, from switching it on to Google tools.
   - designation: Driving School Theory Teacher
     start: Feb 2022
     end: Apr 2022
     responsibilities:
-    - Italian-language lessons on A/B driving licence theory and its vocabulary for young migrants.
+    - A/B driving licence theory and vocabulary, in Italian, for young migrants.
 
 - company:
     name: Cooperativa Roma Solidarietà
@@ -88,12 +86,12 @@ experiences:
     start: Aug 2022
     end: Oct 2022
     responsibilities:
-    - Course focused on learning Excel for people of different ages and nationalities.
+    - Excel course for people of different ages and nationalities.
   - designation: Basic IT Course Teacher
     start: Jul 2022
     end: Aug 2022
     responsibilities:
-    - Computer and Office suite basics (Word and PowerPoint) for people of different ages and nationalities.
+    - Computer and Office suite basics (Word, PowerPoint).
 
 - company:
     name: Private tutoring

@@ -14,10 +14,9 @@ experiences:
   - designation: Full-Stack Developer (freelance)
     start: Mar 2025
     responsibilities:
-    - Analisi, sviluppo e manutenzione di applicazioni web per la gestione interna e la promozione dei servizi delle associazioni.
-    - Frontend in Vue.js, backend in Go con Gin e GORM, database PostgreSQL.
-    - Realizzazione di gestionali/CRM (Empowerment delle Donne con la Nuova Arca, Mete 2) e del portale [Ancona Solidale](https://anconasolidale.org/).
-    - Deploy con Docker Compose e Caddy, autenticazione JWT, documentazione API con Swagger.
+    - Web app per la gestione interna e la promozione dei servizi di associazioni no profit.
+    - "Stack: Vue.js, Go (Gin, GORM), PostgreSQL, Docker e Caddy."
+    - "CRM Empowerment delle Donne (Nuova Arca), piattaforma Mete 2, portale [Ancona Solidale](https://anconasolidale.org/)."
 
 - company:
     name: Università "La Sapienza" di Roma
@@ -29,9 +28,9 @@ experiences:
     start: Gen 2025
     end: Giu 2025
     responsibilities:
-    - Collaboratore del docente dei corsi di Informatica e Computer Science per i rapporti tra aziende e università.
-    - Gestione delle email e delle collaborazioni con le aziende partner.
-    - Organizzazione di eventi in Sapienza come l'[IT-Meeting](https://itmeeting.wordpress.com/) e i Lunch Seminar.
+    - Rapporti tra aziende e università per conto del docente dei corsi di Informatica.
+    - Gestione di email e collaborazioni con le aziende partner.
+    - Organizzazione di eventi come l'[IT-Meeting](https://itmeeting.wordpress.com/) e i Lunch Seminar.
 
 - company:
     name: Fondazione CNOS-FAP ETS Impresa Sociale
@@ -43,18 +42,17 @@ experiences:
     start: Set 2025
     end: Giu 2026
     responsibilities:
-    - Docenza di informatica trasversale nei corsi di formazione professionale.
+    - Informatica trasversale nei corsi di formazione professionale.
   - designation: Formatore informatico
     start: Gen 2025
     end: Giu 2025
     responsibilities:
-    - Docenza di informatica trasversale nei corsi di formazione professionale.
+    - Informatica trasversale nei corsi di formazione professionale.
   - designation: Formatore informatico
     start: Apr 2024
     end: Giu 2024
     responsibilities:
-    - "Scienza della materia: fisica di base."
-    - "Informatica: approccio alla programmazione tramite Scratch e Lego Mindstorm."
+    - Fisica di base e primi passi di programmazione con Scratch e Lego Mindstorm.
 
 - company:
     name: Centro Astalli
@@ -66,17 +64,17 @@ experiences:
     start: Mar 2024
     end: Mag 2024
     responsibilities:
-    - Insegnamento a persone straniere delle funzioni base del PC, dall'accensione all'uso di Google e dei suoi applicativi.
+    - Basi del PC per persone straniere, dall'accensione agli strumenti Google.
   - designation: Docente del corso di informatica di base
     start: Mar 2023
     end: Mag 2023
     responsibilities:
-    - Insegnamento a persone straniere delle funzioni base del PC, dall'accensione all'uso di Google e dei suoi applicativi.
+    - Basi del PC per persone straniere, dall'accensione agli strumenti Google.
   - designation: Insegnante per la scuola di patente
     start: Feb 2022
     end: Apr 2022
     responsibilities:
-    - Lezioni in italiano sulla teoria della patente di tipo A/B e sul lessico specifico per ragazzi stranieri.
+    - Teoria della patente A/B e lessico specifico, in italiano, per ragazzi stranieri.
 
 - company:
     name: Cooperativa Roma Solidarietà
@@ -88,12 +86,12 @@ experiences:
     start: Ago 2022
     end: Ott 2022
     responsibilities:
-    - Corso focalizzato sull'apprendimento di Excel per persone di varie fasce d'età e nazionalità.
+    - Corso di Excel per persone di varie età e nazionalità.
   - designation: Docente del corso di informatica di base
     start: Lug 2022
     end: Ago 2022
     responsibilities:
-    - Basi per l'utilizzo del computer e del pacchetto Office (Word e PowerPoint) per persone di varie fasce d'età e nazionalità.
+    - Basi del computer e del pacchetto Office (Word, PowerPoint).
 
 - company:
     name: Lezioni private
