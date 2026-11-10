@@ -29,16 +29,28 @@ resourceLinks:
 - title: "Il mio CV"
   url: "files/resume.pdf"
 
-badges:
-- type: soft-skill-indicator
-  name: Sviluppo backend (Go)
-  percentage: 90
-  color: blue
-- type: soft-skill-indicator
-  name: Sviluppo frontend (Vue.js)
-  percentage: 85
-  color: yellow
-- type: soft-skill-indicator
-  name: Formazione e didattica
-  percentage: 90
-  color: orange
+# Tecnologie mostrate in orbita accanto alla presentazione (solo icone).
+# Le icone stanno in assets/images/sections/skills/.
+techOrbit:
+  outer:
+  - name: Go
+    logo: /images/sections/skills/go.svg
+  - name: Vue.js
+    logo: /images/sections/skills/vuejs.svg
+  - name: PostgreSQL
+    logo: /images/sections/skills/postgresql.svg
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+  - name: Python
+    logo: /images/sections/skills/python.svg
+  - name: Git
+    logo: /images/sections/skills/git.svg
+  inner:
+  - name: JavaScript
+    logo: /images/sections/skills/javascript.svg
+  - name: Java
+    logo: /images/sections/skills/java.svg
+  - name: Swift
+    logo: /images/sections/skills/swift.svg
+  - name: Linux
+    logo: /images/sections/skills/linux.svg

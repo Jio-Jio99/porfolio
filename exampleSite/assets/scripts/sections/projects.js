@@ -1,44 +1,31 @@
-// Sovrascrive scripts/sections/projects.js del tema:
-// stessa logica, in più tutte le card dei progetti prendono l'altezza della più alta.
-import Filterizr from 'filterizr'
+// Sovrascrive scripts/sections/projects.js del tema.
+// Niente Filterizr: le card stanno in una CSS grid (vedi override.scss) e il filtro
+// si limita a nascondere/mostrare le card, così altezze e spazi li gestisce il browser.
 import { insertScript } from '../core'
 
-function equalizeCards (holder) {
-  const cards = Array.from(holder.querySelectorAll('.filtr-item > .card > .card'))
-  cards.forEach((c) => { c.style.minHeight = '' })
-  const max = Math.max(0, ...cards.map((c) => c.offsetHeight))
-  cards.forEach((c) => { c.style.minHeight = `${max}px` })
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-  const projectContainers = document.querySelectorAll('.filtr-projects')
-  projectContainers.forEach((container) => {
+  document.querySelectorAll('.filtr-projects').forEach((container) => {
     const sectionId = container.getAttribute('data-section')
-    const cardHolder = document.getElementById(`project-card-holder-${sectionId}`)
-    if (cardHolder == null || cardHolder.children.length === 0) return
+    const items = Array.from(container.querySelectorAll('.filtr-item'))
+    if (items.length === 0) return
 
-    const controlsSelector = `.project-filtr-control[data-section="${sectionId}"]`
-    let activeFilter = 'all'
-    document.querySelectorAll(controlsSelector).forEach((btn) => {
-      btn.addEventListener('click', () => { activeFilter = btn.getAttribute('data-filter') || 'all' })
-    })
+    const buttons = Array.from(document.querySelectorAll(`.project-filtr-control[data-section="${sectionId}"]`))
 
-    equalizeCards(cardHolder)
-    const filterizr = new Filterizr(container, {
-      layout: 'sameWidth',
-      controlsSelector
-    })
+    const categories = (item) =>
+      (item.getAttribute('data-category') || '').split(',').map((c) => c.trim()).filter(Boolean)
 
-    let timer = null
-    const relayout = () => {
-      clearTimeout(timer)
-      timer = setTimeout(() => {
-        equalizeCards(cardHolder)
-        filterizr.filter(activeFilter)
-      }, 150)
+    const applyFilter = (filter) => {
+      buttons.forEach((b) => b.classList.toggle('active', b.getAttribute('data-filter') === filter))
+      items.forEach((item) => {
+        const show = filter === 'all' || categories(item).includes(filter)
+        item.classList.toggle('is-hidden', !show)
+      })
     }
-    window.addEventListener('load', relayout)
-    window.addEventListener('resize', relayout)
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => applyFilter(btn.getAttribute('data-filter') || 'all'))
+    })
+    applyFilter('all')
   })
 })
 
