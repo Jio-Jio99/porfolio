@@ -2,14 +2,14 @@
 name: "Gioele Maria Zoccoli"
 nickname: "Gioele"
 greeting: "Hi, I am"
-# Put your photo in assets/images/author/gioele.jpg and uncomment the line below
-# image: "images/author/gioele.jpg"
+
+image: "images/author/gioele.png"
 
 # contact information used in the footer
 contactInfo:
-  # email: "your@email.com"
+  email: "info@gioelezoccoli.org"
   github: Jio-Jio99
-  # linkedin: your-profile
+  linkedin: gioele-maria-zoccoli
 
 # rotating summary lines under your name
 summary:

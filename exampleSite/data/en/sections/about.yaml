@@ -6,10 +6,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Full-Stack Developer
-company:
-  name: Freelance
-  url: "https://github.com/Jio-Jio99"
+designation: Freelance Full-Stack Developer
 
 summary: 'I hold a Bachelor''s degree in Computer Science from "La Sapienza" University of Rome, where I am now completing my Master''s degree in Computer Science. I build full-stack web applications ([Vue.js](https://vuejs.org/) on the frontend, [Go](https://go.dev/) with Gin and GORM on the backend, [PostgreSQL](https://www.postgresql.org/) as database) for non-profit organisations: internal management tools, CRMs and monitoring platforms. I have also worked as an IT trainer in the past, teaching computer basics, the Office suite and programming to students and adults.'
 
@@ -20,12 +17,12 @@ socialLinks:
 - name: Telegram
   icon: "fab fa-telegram"
   url: "https://t.me/JioJio1999"
-# - name: LinkedIn
-#   icon: "fab fa-linkedin"
-#   url: "https://www.linkedin.com/in/your-profile"
-# - name: Email
-#   icon: "fas fa-envelope"
-#   url: "your@email.com"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/gioele-maria-zoccoli"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "info@gioelezoccoli.org"
 
 # Replace static/files/resume.pdf with your own CV
 resourceLinks:

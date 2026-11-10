@@ -1,5 +1,4 @@
-# ⚠️ Imposta qui il tuo dominio (es. https://www.tuodominio.it). Senza URL completo le immagini non vengono caricate correttamente.
-baseURL: https://www.tuodominio.it
+baseURL: https://www.gioelezoccoli.org
 
 locale: it-it
 title: "Gioele Maria Zoccoli"

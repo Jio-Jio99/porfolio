@@ -7,12 +7,11 @@ section:
 
 experiences:
 - company:
-    name: Freelance
-    url: "https://github.com/Jio-Jio99"
+    name: Self-employed
     location: Italy
-    overview: Collaboration with non-profit associations and cooperatives to build tailored digital tools.
+    overview: Freelance work with non-profit associations and cooperatives to build tailored digital tools.
   positions:
-  - designation: Full-Stack Developer
+  - designation: Full-Stack Developer (freelance)
     start: Mar 2025
     responsibilities:
     - Analysis, development and maintenance of web applications for internal management and promotion of the associations' services.

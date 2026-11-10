@@ -6,10 +6,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Sviluppatore Full-Stack
-company:
-  name: Freelance
-  url: "https://github.com/Jio-Jio99"
+designation: Sviluppatore Full-Stack Freelance
 
 summary: 'Laureato in Informatica all''Università "La Sapienza" di Roma, dove sto completando la Laurea Magistrale in Computer Science. Sviluppo applicazioni web full-stack (frontend in [Vue.js](https://vuejs.org/), backend in [Go](https://go.dev/) con Gin e GORM, database [PostgreSQL](https://www.postgresql.org/)) per associazioni ed enti del terzo settore: gestionali interni, CRM e piattaforme di monitoraggio. In passato ho lavorato anche come formatore informatico, insegnando le basi del computer, il pacchetto Office e la programmazione a studenti e adulti.'
 
@@ -20,12 +17,12 @@ socialLinks:
 - name: Telegram
   icon: "fab fa-telegram"
   url: "https://t.me/JioJio1999"
-# - name: LinkedIn
-#   icon: "fab fa-linkedin"
-#   url: "https://www.linkedin.com/in/tuo-profilo"
-# - name: Email
-#   icon: "fas fa-envelope"
-#   url: "tua@email.it"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/gioele-maria-zoccoli"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "info@gioelezoccoli.org"
 
 # Sostituisci static/files/resume.pdf con il tuo CV
 resourceLinks:
