@@ -242,6 +242,12 @@ html[data-theme='dark'] .experiences-section .timeline .vertical-line::before {
   height: var(--size);
   max-width: 100%;
   margin: 0 auto;
+  // spazio per le icone che sporgono dagli anelli (mezza icona) e clip di ciò che dipinge
+  // fuori dal riquadro: così l'orbita, ruotando, non allarga mai la pagina su mobile
+  --pad: calc(var(--icon) / 2 + 6px);
+  box-sizing: content-box;
+  padding: var(--pad);
+  contain: paint;
 
   .tech-orbit-center {
     position: absolute;
@@ -270,11 +276,11 @@ html[data-theme='dark'] .experiences-section .timeline .vertical-line::before {
     animation: orbit-spin var(--dur) linear infinite;
   }
   .orbit-outer {
-    inset: 0;
+    inset: var(--pad);
     --dur: var(--outer-dur);
   }
   .orbit-inner {
-    inset: calc(var(--size) * 0.22);
+    inset: calc(var(--pad) + var(--size) * 0.22);
     --dur: var(--inner-dur);
     animation-direction: reverse;
   }
@@ -384,4 +390,83 @@ html[data-theme='dark'] .tech-orbit {
   .content {
     z-index: 1;
   }
+}
+
+// ---------- Home: layout indipendente da altezza viewport e lunghezza della scritta ----------
+.home {
+  height: 100vh;
+  height: 100svh; // viewport "piccolo": non cambia quando la barra del browser si nasconde
+
+  // il blocco centrale è ancorato alla sezione, non spinto su con percentuali
+  .content {
+    position: absolute;
+    inset: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem 4.5rem;
+    z-index: 1;
+  }
+
+  // la scritta che si compone sta su UNA riga ad altezza fissa: non va mai a capo,
+  // l'eccesso finisce in overflow nascosto, quindi non può spostare nulla
+  .typing-carousel {
+    height: 1.5em;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: clamp(0.9rem, 4vw, 14pt); // su schermi stretti si riduce invece di andare a capo
+
+    #typed,
+    .ti-cursor,
+    .ityped-cursor {
+      white-space: nowrap;
+      display: inline;
+    }
+  }
+
+  // la freccia è ancorata al fondo della sezione, separata dal testo
+  .arrow-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.25rem;
+    top: auto;
+  }
+
+  .arrow {
+    position: static;
+  }
+
+  // schermi bassi (telefono in orizzontale): tutto più compatto, niente freccia
+  @media (max-height: 520px) {
+    .content {
+      padding: 3.5rem 1rem 1.5rem;
+    }
+
+    img {
+      width: 88px;
+      height: 88px;
+      margin-bottom: 0.25rem;
+    }
+
+    .greeting {
+      font-size: 1.6rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .arrow-center {
+      display: none;
+    }
+  }
+}
+
+// ---------- Chi sono: nessun overflow orizzontale dall'orbita ----------
+#about {
+  overflow-x: clip;
 }
