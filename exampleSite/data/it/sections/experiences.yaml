@@ -20,6 +20,20 @@ experiences:
     - Deploy con Docker Compose e Caddy, autenticazione JWT, documentazione API con Swagger.
 
 - company:
+    name: Università "La Sapienza" di Roma
+    url: "https://www.uniroma1.it/"
+    location: Roma, Italia
+    overview: Dipartimento di Informatica.
+  positions:
+  - designation: Borsista - relazioni tra aziende e università
+    start: Gen 2025
+    end: Giu 2025
+    responsibilities:
+    - Collaboratore del docente dei corsi di Informatica e Computer Science per i rapporti tra aziende e università.
+    - Gestione delle email e delle collaborazioni con le aziende partner.
+    - Organizzazione di eventi in Sapienza come l'[IT-Meeting](https://itmeeting.wordpress.com/) e i Lunch Seminar.
+
+- company:
     name: Fondazione CNOS-FAP ETS Impresa Sociale
     url: "https://www.cnos-fap.it/"
     location: Roma, Italia

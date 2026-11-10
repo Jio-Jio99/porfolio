@@ -1,0 +1,9 @@
+/* Stili personalizzati del sito (sovrascrive override.scss del tema) */
+
+// Logo della navbar in un cerchio
+#logo,
+#main-logo,
+#inverted-logo {
+  border-radius: 50%;
+  object-fit: cover;
+}

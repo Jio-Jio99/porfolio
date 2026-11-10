@@ -17,20 +17,23 @@ buttons:
 #   image: /images/sections/projects/file-name.png
 projects:
 - name: Ancona Solidale
+  image: /images/sections/projects/ancona-solidale.png
   role: Full-Stack Developer
   timeline: "Jan 2026 - present"
   url: "https://anconasolidale.org/"
   summary: Public portal of the Community Land project by Salesiani per il Sociale for the community of Ancona. Management of services, events, places and contacts, with multilingual content and a map of places (PostGIS). Go backend (Gin, GORM, JWT, Swagger), Vue 3 frontend with Vite, Pinia and TailwindCSS, deployed with Docker and Caddy.
-  tags: ["webapp", "go", "vue", "postgresql", "docker"]
+  tags: ["webapp", "pwa", "go", "vue", "postgresql", "docker"]
 
 - name: Women's Empowerment
+  image: /images/sections/projects/empowerment.gif
   role: Full-Stack Developer
   timeline: "Mar 2025 - present"
   summary: Management system (CRM) for the operators of the "Empowerment delle Donne" project by Nuova Arca. Progressive Web App usable on desktop and mobile, with a Go backend, Vue.js frontend, PostgreSQL database and Python services for document generation and data ETL.
   tags: ["crm", "go", "vue", "pwa", "python"]
 
 - name: Mete 2
+  image: /images/sections/projects/mete2.png
   role: Full-Stack Developer
   timeline: "Jul 2026 - present"
   summary: Monitoring platform (CRM) for the "Mete di Inclusione Urbana 2" project of Roma Capitale. Management of beneficiary records, the action catalogue and the three intervention lines (Guidance, Training, Housing). Go backend, Vue 3 frontend with TailwindCSS, containerised PostgreSQL.
-  tags: ["crm", "go", "vue", "postgresql"]
+  tags: ["crm", "pwa", "go", "vue", "postgresql"]

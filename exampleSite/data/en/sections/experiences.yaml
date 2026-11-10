@@ -20,6 +20,20 @@ experiences:
     - Deployment with Docker Compose and Caddy, JWT authentication, API documentation with Swagger.
 
 - company:
+    name: '"La Sapienza" University of Rome'
+    url: "https://www.uniroma1.it/"
+    location: Rome, Italy
+    overview: Department of Computer Science.
+  positions:
+  - designation: Research Fellow - industry and university relations
+    start: Jan 2025
+    end: Jun 2025
+    responsibilities:
+    - Assistant to the professor of the Computer Science courses for relations between companies and the university.
+    - Managed emails and collaborations with partner companies.
+    - Organised events at Sapienza such as the [IT-Meeting](https://itmeeting.wordpress.com/) and the Lunch Seminars.
+
+- company:
     name: Fondazione CNOS-FAP ETS Impresa Sociale
     url: "https://www.cnos-fap.it/"
     location: Rome, Italy
