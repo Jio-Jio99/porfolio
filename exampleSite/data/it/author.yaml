@@ -1,0 +1,18 @@
+# informazioni personali
+name: "Gioele Maria Zoccoli"
+nickname: "Gioele"
+greeting: "Ciao, sono"
+image: "images/author/gioele.png"
+
+# contatti usati nel footer
+contactInfo:
+  email: "info@gioelezoccoli.org"
+  github: Jio-Jio99
+  linkedin: www.linkedin.com/in/gioele-maria-zoccoli
+
+# frasi che scorrono sotto il nome
+summary:
+  - Sono uno sviluppatore full-stack
+  - Costruisco web app con Go e Vue.js
+  - Ho lavorato come formatore informatico
+  - Lavoro con il terzo settore

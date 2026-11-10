@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -6,66 +5,78 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+- name: Backend
+  filter: "backend"
+- name: Frontend
+  filter: "frontend"
+- name: Languages
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Tools
+  filter: "tools"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Go
+  logo: /images/sections/skills/go.svg
+  summary: "Main backend language: REST APIs with Gin, GORM as ORM, JWT authentication, Swagger documentation."
+  categories: ["backend", "language"]
+  url: "https://go.dev/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Vue.js
+  logo: /images/sections/skills/vuejs.svg
+  summary: "Frontend with Vue 3 (Composition API), Vite, Pinia, Vue Router and TailwindCSS. Progressive Web App development."
+  categories: ["frontend"]
+  url: "https://vuejs.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: PostgreSQL / SQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Relational schema design, SQL queries, migrations and the PostGIS extension for geographic data."
+  categories: ["backend"]
+  url: "https://www.postgresql.org/"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Scripts, support services and ETL pipelines for data processing and document generation."
+  categories: ["backend", "language"]
+  url: "https://www.python.org/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Containerised backends and frontends with Docker and Docker Compose, Caddy reverse proxy with automatic HTTPS."
+  categories: ["tools"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: HTML, CSS, JavaScript
+  logo: /images/sections/skills/javascript.svg
+  summary: "Web fundamentals: semantic markup, stylesheets and modern JavaScript."
+  categories: ["frontend", "language"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Object-oriented programming learned during my university studies."
+  categories: ["language"]
+
+- name: C
+  logo: /images/sections/skills/c.svg
+  summary: "Systems programming and computer science fundamentals learned at university."
+  categories: ["language"]
+
+- name: Swift / SwiftUI
+  logo: /images/sections/skills/swift.svg
+  summary: "Building interfaces for the Apple ecosystem with Swift and SwiftUI."
+  categories: ["frontend", "language"]
+  url: "https://developer.apple.com/swift/"
 
 - name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  logo: /images/sections/skills/git.svg
+  summary: "Source control and collaborative work on GitHub."
+  categories: ["tools"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Main operating system for development and deployment; shell and basic administration."
+  categories: ["tools"]

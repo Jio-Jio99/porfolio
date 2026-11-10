@@ -1,0 +1,82 @@
+section:
+  name: Competenze
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+buttons:
+- name: Tutte
+  filter: "all"
+- name: Backend
+  filter: "backend"
+- name: Frontend
+  filter: "frontend"
+- name: Linguaggi
+  filter: "language"
+- name: Strumenti
+  filter: "tools"
+
+skills:
+- name: Go
+  logo: /images/sections/skills/go.svg
+  summary: "Linguaggio principale per il backend: API REST con Gin, ORM con GORM, autenticazione JWT, documentazione Swagger."
+  categories: ["backend", "language"]
+  url: "https://go.dev/"
+
+- name: Vue.js
+  logo: /images/sections/skills/vuejs.svg
+  summary: "Frontend con Vue 3 (Composition API), Vite, Pinia, Vue Router e TailwindCSS. Sviluppo di Progressive Web App."
+  categories: ["frontend"]
+  url: "https://vuejs.org/"
+
+- name: PostgreSQL / SQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Progettazione di schemi relazionali, query SQL, migrazioni ed estensione PostGIS per dati geografici."
+  categories: ["backend"]
+  url: "https://www.postgresql.org/"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Script, servizi di supporto e pipeline ETL per l'elaborazione e la generazione di documenti."
+  categories: ["backend", "language"]
+  url: "https://www.python.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Containerizzazione di backend e frontend con Docker e Docker Compose, reverse proxy con Caddy e HTTPS automatico."
+  categories: ["tools"]
+  url: "https://www.docker.com/"
+
+- name: HTML, CSS, JavaScript
+  logo: /images/sections/skills/javascript.svg
+  summary: "Basi del web: markup semantico, fogli di stile e JavaScript moderno."
+  categories: ["frontend", "language"]
+
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Programmazione a oggetti appresa durante il percorso universitario."
+  categories: ["language"]
+
+- name: C
+  logo: /images/sections/skills/c.svg
+  summary: "Programmazione di sistema e basi dell'informatica apprese all'università."
+  categories: ["language"]
+
+- name: Swift / SwiftUI
+  logo: /images/sections/skills/swift.svg
+  summary: "Sviluppo di interfacce per l'ecosistema Apple con Swift e SwiftUI."
+  categories: ["frontend", "language"]
+  url: "https://developer.apple.com/swift/"
+
+- name: Git
+  logo: /images/sections/skills/git.svg
+  summary: "Versionamento del codice e lavoro collaborativo su GitHub."
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Sistema operativo principale per sviluppo e deploy; shell e amministrazione di base."
+  categories: ["tools"]

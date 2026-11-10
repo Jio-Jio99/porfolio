@@ -1,0 +1,31 @@
+section:
+  name: Formazione
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: Laurea Magistrale in Computer Science
+  icon: fa-graduation-cap
+  timeframe: Set 2024 - in corso
+  institution:
+    name: 'Università "La Sapienza" di Roma'
+    url: "https://www.uniroma1.it/"
+
+- name: Laurea Triennale in Informatica
+  icon: fa-graduation-cap
+  timeframe: 2018 - Mar 2024
+  institution:
+    name: 'Università "La Sapienza" di Roma'
+    url: "https://www.uniroma1.it/"
+
+- name: Diploma di Liceo Classico
+  icon: fa-school
+  timeframe: 2013 - 2018
+  institution:
+    name: 'Liceo Classico "Dante Alighieri", Latina'
+    url: "https://www.liceoalighieri.edu.it/"
+  extracurricularActivities:
+  - Rappresentante del Comitato Lazio-Umbria del MGS (Movimento Giovanile Salesiano), 2019 - 2022.

@@ -1,0 +1,47 @@
+section:
+  name: Chi sono
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Sviluppatore Full-Stack
+company:
+  name: Freelance
+  url: "https://github.com/Jio-Jio99"
+
+summary: 'Laureato in Informatica all''Università "La Sapienza" di Roma, dove sto completando la Laurea Magistrale in Computer Science. Sviluppo applicazioni web full-stack (frontend in [Vue.js](https://vuejs.org/), backend in [Go](https://go.dev/) con Gin e GORM, database [PostgreSQL](https://www.postgresql.org/)) per associazioni ed enti del terzo settore: gestionali interni, CRM e piattaforme di monitoraggio. In passato ho lavorato anche come formatore informatico, insegnando le basi del computer, il pacchetto Office e la programmazione a studenti e adulti.'
+
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Jio-Jio99"
+- name: Telegram
+  icon: "fab fa-telegram"
+  url: "https://t.me/JioJio1999"
+# - name: LinkedIn
+#   icon: "fab fa-linkedin"
+#   url: "https://www.linkedin.com/in/tuo-profilo"
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "tua@email.it"
+
+# Sostituisci static/files/resume.pdf con il tuo CV
+resourceLinks:
+- title: "Il mio CV"
+  url: "files/resume.pdf"
+
+badges:
+- type: soft-skill-indicator
+  name: Sviluppo backend (Go)
+  percentage: 90
+  color: blue
+- type: soft-skill-indicator
+  name: Sviluppo frontend (Vue.js)
+  percentage: 85
+  color: yellow
+- type: soft-skill-indicator
+  name: Formazione e didattica
+  percentage: 90
+  color: orange

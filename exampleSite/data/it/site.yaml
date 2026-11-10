@@ -1,0 +1,16 @@
+# Nota di copyright
+copyright: © 2026 Gioele Maria Zoccoli
+
+# Meta description per i motori di ricerca
+description: Portfolio di Gioele Maria Zoccoli, sviluppatore full-stack (Go, Vue.js, PostgreSQL) a Roma.
+
+# Menu personalizzati nella navbar (vuoto)
+customMenus: []
+
+# OpenGraph
+openGraph:
+  title: Gioele Maria Zoccoli
+  type: website
+  description: Portfolio di Gioele Maria Zoccoli, sviluppatore full-stack.
+  image: images/site/main-logo.png
+  url: https://www.tuodominio.it

@@ -1,0 +1,36 @@
+section:
+  name: Progetti
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+- name: Tutti
+  filter: "all"
+- name: Web app
+  filter: "webapp"
+- name: CRM
+  filter: "crm"
+
+# Per aggiungere un'immagine di anteprima: metti il file in assets/images/sections/projects/ e aggiungi
+#   image: /images/sections/projects/nome-file.png
+projects:
+- name: Ancona Solidale
+  role: Full-Stack Developer
+  timeline: "Gen 2026 - in corso"
+  url: "https://anconasolidale.org/"
+  summary: Portale pubblico del progetto Community Land dei Salesiani per il Sociale per la comunità di Ancona. Gestione di servizi, eventi, luoghi e contatti, con contenuti multilingua e mappa dei luoghi (PostGIS). Backend in Go (Gin, GORM, JWT, Swagger), frontend in Vue 3 con Vite, Pinia e TailwindCSS, deploy con Docker e Caddy.
+  tags: ["webapp", "go", "vue", "postgresql", "docker"]
+
+- name: Empowerment delle Donne
+  role: Full-Stack Developer
+  timeline: "Mar 2025 - in corso"
+  summary: Sistema gestionale (CRM) per gli operatori del progetto "Empowerment delle Donne" della Nuova Arca. Progressive Web App utilizzabile da desktop e mobile, con backend in Go, frontend in Vue.js, database PostgreSQL e servizi Python per la generazione di documenti e l'ETL dei dati.
+  tags: ["crm", "go", "vue", "pwa", "python"]
+
+- name: Mete 2
+  role: Full-Stack Developer
+  timeline: "Lug 2026 - in corso"
+  summary: Piattaforma di monitoraggio (CRM) del progetto "Mete di Inclusione Urbana 2" di Roma Capitale. Gestione delle schede dei beneficiari, del catalogo delle azioni e delle tre linee di intervento (Orientare, Formare, Abitare). Backend in Go, frontend in Vue 3 con TailwindCSS, PostgreSQL in container.
+  tags: ["crm", "go", "vue", "postgresql"]

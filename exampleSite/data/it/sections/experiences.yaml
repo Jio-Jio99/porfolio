@@ -1,0 +1,94 @@
+section:
+  name: Esperienze
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: Freelance
+    url: "https://github.com/Jio-Jio99"
+    location: Italia
+    overview: Collaborazione con associazioni e cooperative del terzo settore per lo sviluppo di strumenti digitali su misura.
+  positions:
+  - designation: Full-Stack Developer
+    start: Mar 2025
+    responsibilities:
+    - Analisi, sviluppo e manutenzione di applicazioni web per la gestione interna e la promozione dei servizi delle associazioni.
+    - Frontend in Vue.js, backend in Go con Gin e GORM, database PostgreSQL.
+    - Realizzazione di gestionali/CRM (Empowerment delle Donne con la Nuova Arca, Mete 2) e del portale [Ancona Solidale](https://anconasolidale.org/).
+    - Deploy con Docker Compose e Caddy, autenticazione JWT, documentazione API con Swagger.
+
+- company:
+    name: Fondazione CNOS-FAP ETS Impresa Sociale
+    url: "https://www.cnos-fap.it/"
+    location: Roma, Italia
+    overview: Centro di formazione professionale salesiano.
+  positions:
+  - designation: Formatore informatico
+    start: Set 2025
+    end: Giu 2026
+    responsibilities:
+    - Docenza di informatica trasversale nei corsi di formazione professionale.
+  - designation: Formatore informatico
+    start: Gen 2025
+    end: Giu 2025
+    responsibilities:
+    - Docenza di informatica trasversale nei corsi di formazione professionale.
+  - designation: Formatore informatico
+    start: Apr 2024
+    end: Giu 2024
+    responsibilities:
+    - "Scienza della materia: fisica di base."
+    - "Informatica: approccio alla programmazione tramite Scratch e Lego Mindstorm."
+
+- company:
+    name: Centro Astalli
+    url: "https://www.centroastalli.it/"
+    location: Roma, Italia
+    overview: Servizio dei Gesuiti per i rifugiati in Italia.
+  positions:
+  - designation: Docente del corso di informatica di base
+    start: Mar 2024
+    end: Mag 2024
+    responsibilities:
+    - Insegnamento a persone straniere delle funzioni base del PC, dall'accensione all'uso di Google e dei suoi applicativi.
+  - designation: Docente del corso di informatica di base
+    start: Mar 2023
+    end: Mag 2023
+    responsibilities:
+    - Insegnamento a persone straniere delle funzioni base del PC, dall'accensione all'uso di Google e dei suoi applicativi.
+  - designation: Insegnante per la scuola di patente
+    start: Feb 2022
+    end: Apr 2022
+    responsibilities:
+    - Lezioni in italiano sulla teoria della patente di tipo A/B e sul lessico specifico per ragazzi stranieri.
+
+- company:
+    name: Cooperativa Roma Solidarietà
+    url: "https://www.caritasroma.it/"
+    location: Roma, Italia
+    overview: Cooperativa sociale della Caritas di Roma.
+  positions:
+  - designation: Docente del corso di informatica (Excel)
+    start: Ago 2022
+    end: Ott 2022
+    responsibilities:
+    - Corso focalizzato sull'apprendimento di Excel per persone di varie fasce d'età e nazionalità.
+  - designation: Docente del corso di informatica di base
+    start: Lug 2022
+    end: Ago 2022
+    responsibilities:
+    - Basi per l'utilizzo del computer e del pacchetto Office (Word e PowerPoint) per persone di varie fasce d'età e nazionalità.
+
+- company:
+    name: Lezioni private
+    location: Latina, Italia
+    overview: Ripetizioni private a studenti dalla scuola media al liceo.
+  positions:
+  - designation: Insegnante privato
+    start: 2019
+    end: 2021
+    responsibilities:
+    - Lezioni di recupero per studenti di scuola media e liceo.
