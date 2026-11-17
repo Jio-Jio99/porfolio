@@ -37,6 +37,10 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      # Hugo >= 0.170 non include più LibSass: serve il binario Dart Sass nel PATH.
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Install dependencies
         working-directory: exampleSite
         run: |
