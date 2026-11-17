@@ -22,10 +22,11 @@
         {{ end }}
       </h5>
       {{ end }}
-      <p class="p-1 text-justify">
+      <div class="p-1 text-justify">
         {{ .summary | markdownify }}
-      </p>
-      <div class="text-container ms-auto">
+      </div>
+      <div class="about-actions">
+      <div class="text-container">
         <ul class="social-link d-flex">
           {{ range .socialLinks }}
           <li>
@@ -41,15 +42,12 @@
         </ul>
       </div>
       {{ if .resume }}
-      <a href="{{ .resume | relURL }}" title="{{ i18n "resume"}}" target="#"
-        ><button class="btn btn-dark">{{ i18n "resume"}}</button></a
-      >
+      <a class="btn btn-dark" href="{{ .resume | relURL }}" title="{{ i18n "resume"}}" target="_blank" rel="noopener">{{ i18n "resume"}}</a>
       {{ end }}
       {{ range .resourceLinks }}
-      <a href="{{ .url | relURL }}" title="{{ .title }}" target="#"
-        ><button class="btn btn-dark">{{ .title }}</button></a
-      >
+      <a class="btn btn-dark" href="{{ .url | relURL }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a>
       {{ end }}
+      </div>
     </div>
     <!-- tech orbit (personalizzazione del sito): icone delle tecnologie in orbita -->
     {{ if .techOrbit }}

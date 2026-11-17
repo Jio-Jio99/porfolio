@@ -2,7 +2,7 @@ section:
   name: Competenze
   id: skills
   enable: true
-  weight: 2
+  weight: 4
   showOnNavbar: true
   filter: true
 

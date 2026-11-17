@@ -7,16 +7,46 @@ section:
 
 experiences:
 - company:
-    name: Libero professionista
-    location: Italia
-    overview: Lavoro da freelance con associazioni e cooperative del terzo settore per lo sviluppo di strumenti digitali su misura.
+    name: Kairos Cooperativa Sociale
+    url: "https://www.kairoscoopsociale.it/"
+    location: Roma, Italia
+    overview: Cooperativa sociale.
   positions:
-  - designation: Full-Stack Developer (freelance)
+  - designation: Ricerca e sviluppo - AISA
+    start: Mag 2026
+    responsibilities:
+    - Progetto di ricerca su intelligenza artificiale e terzo settore.
+
+- company:
+    name: La Nuova Arca
+    url: "https://www.lanuovaarca.org/chi-siamo/"
+    location: Roma, Italia
+    overview: Associazione del terzo settore.
+  positions:
+  - designation: Full-Stack Developer - Mete 2
+    start: Lug 2026
+    responsibilities:
+    - Web app e microservizi per il monitoraggio del progetto "Mete di Inclusione Urbana 2" di Roma Capitale.
+    - Gestione dei percorsi dei beneficiari sulle tre linee Formare, Abitare e Orientare.
+  - designation: Progettazione - AIRONI
+    start: Set 2025
+    responsibilities:
+    - Progetto per il bando regionale Pr@m-II-S sull'IA a sostegno dell'inclusione sociale.
+  - designation: Full-Stack Developer - CRM Empowerment delle Donne
     start: Mar 2025
     responsibilities:
-    - Web app per la gestione interna e la promozione dei servizi di associazioni no profit.
-    - "Stack: Vue.js, Go (Gin, GORM), PostgreSQL, Docker e Caddy."
-    - "CRM Empowerment delle Donne (Nuova Arca), piattaforma Mete 2, portale [Ancona Solidale](https://anconasolidale.org/)."
+    - CRM per i percorsi di empowerment delle donne, realizzato insieme all'associazione Mam&Co.
+
+- company:
+    name: Salesiani per il Sociale
+    url: "https://www.salesianiperilsociale.it/"
+    location: Italia
+    overview: Federazione salesiana per il sociale.
+  positions:
+  - designation: Full-Stack Developer - Ancona Solidale
+    start: Gen 2026
+    responsibilities:
+    - "Portale [Ancona Solidale](https://anconasolidale.org/) del progetto Community Land per la comunità di Ancona."
 
 - company:
     name: Università "La Sapienza" di Roma

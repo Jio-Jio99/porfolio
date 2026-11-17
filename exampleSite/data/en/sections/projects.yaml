@@ -2,7 +2,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
 
 buttons:
@@ -12,6 +12,8 @@ buttons:
   filter: "webapp"
 - name: CRM
   filter: "crm"
+- name: AI
+  filter: "ai"
 
 # To add a preview image: put the file in assets/images/sections/projects/ and add
 #   image: /images/sections/projects/file-name.png
@@ -21,7 +23,7 @@ projects:
   role: Full-Stack Developer
   timeline: "Jan 2026 - present"
   url: "https://anconasolidale.org/"
-  summary: Public portal of the Community Land project by Salesiani per il Sociale for the community of Ancona. Management of services, events, places and contacts, with multilingual content and a map of places (PostGIS). Go backend (Gin, GORM, JWT, Swagger), Vue 3 frontend with Vite, Pinia and TailwindCSS, deployed with Docker and Caddy.
+  summary: Public portal of the Community Land project by [Salesiani per il Sociale](https://www.salesianiperilsociale.it/) for the community of Ancona. Management of services, events, places and contacts, with multilingual content and a map of places (PostGIS). Go backend (Gin, GORM, JWT, Swagger), Vue 3 frontend with Vite, Pinia and TailwindCSS, deployed with Docker and Caddy.
   tags: ["webapp", "pwa", "go", "vue", "postgresql", "docker"]
 
 - name: Women's Empowerment
@@ -37,3 +39,19 @@ projects:
   timeline: "Jul 2026 - present"
   summary: Monitoring platform (CRM) for the "Mete di Inclusione Urbana 2" project of Roma Capitale. Management of beneficiary records, the action catalogue and the three intervention lines (Guidance, Training, Housing). Go backend, Vue 3 frontend with TailwindCSS, containerised PostgreSQL.
   tags: ["crm", "pwa", "go", "vue", "postgresql"]
+
+- name: AISA
+  image: /images/sections/projects/aisa.jpg
+  role: Research and development
+  timeline: "May 2026 - present"
+  url: "https://www.kairoscoopsociale.it/"
+  summary: Artificial Intelligence for Social Assistance, a research project with Kairos on how artificial intelligence can support social workers, reducing administrative burden and leaving more time for people.
+  tags: ["ai", "research"]
+
+- name: AIRONI
+  image: /images/sections/projects/aironi.png
+  role: Project design and development
+  timeline: "Sep 2025 - present"
+  url: "https://www.lanuovaarca.org/chi-siamo/"
+  summary: La Nuova Arca's project for the Lazio Region's Pr@m-II-S call on artificial intelligence for social inclusion. I work on both the project design and the technical side. The project is at an early stage and aims to explore new applications of AI for people in vulnerable situations.
+  tags: ["ai", "design"]

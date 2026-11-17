@@ -7,16 +7,46 @@ section:
 
 experiences:
 - company:
-    name: Self-employed
-    location: Italy
-    overview: Freelance work with non-profit associations and cooperatives to build tailored digital tools.
+    name: Kairos Cooperativa Sociale
+    url: "https://www.kairoscoopsociale.it/"
+    location: Rome, Italy
+    overview: Social cooperative.
   positions:
-  - designation: Full-Stack Developer (freelance)
+  - designation: Research and development - AISA
+    start: May 2026
+    responsibilities:
+    - Research project on artificial intelligence and the non-profit sector.
+
+- company:
+    name: La Nuova Arca
+    url: "https://www.lanuovaarca.org/chi-siamo/"
+    location: Rome, Italy
+    overview: Non-profit association.
+  positions:
+  - designation: Full-Stack Developer - Mete 2
+    start: Jul 2026
+    responsibilities:
+    - Web app and microservices monitoring Rome's "Mete di Inclusione Urbana 2" project.
+    - Tracking beneficiaries' pathways across the three lines Train, Housing and Guidance.
+  - designation: Project design - AIRONI
+    start: Sep 2025
+    responsibilities:
+    - Project for the Lazio Region's Pr@m-II-S call on AI for social inclusion.
+  - designation: Full-Stack Developer - Women's Empowerment CRM
     start: Mar 2025
     responsibilities:
-    - Web apps for internal management and service promotion of non-profit associations.
-    - "Stack: Vue.js, Go (Gin, GORM), PostgreSQL, Docker and Caddy."
-    - "Women's Empowerment CRM (Nuova Arca), Mete 2 platform, [Ancona Solidale](https://anconasolidale.org/) portal."
+    - CRM for women's empowerment pathways, built together with the Mam&Co association.
+
+- company:
+    name: Salesiani per il Sociale
+    url: "https://www.salesianiperilsociale.it/"
+    location: Italy
+    overview: Salesian federation for social work.
+  positions:
+  - designation: Full-Stack Developer - Ancona Solidale
+    start: Jan 2026
+    responsibilities:
+    - "[Ancona Solidale](https://anconasolidale.org/) portal of the Community Land project for the community of Ancona."
 
 - company:
     name: '"La Sapienza" University of Rome'

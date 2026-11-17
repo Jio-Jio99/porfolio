@@ -2,7 +2,7 @@ section:
   name: Progetti
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
 
 buttons:
@@ -12,6 +12,8 @@ buttons:
   filter: "webapp"
 - name: CRM
   filter: "crm"
+- name: AI
+  filter: "ai"
 
 # Per aggiungere un'immagine di anteprima: metti il file in assets/images/sections/projects/ e aggiungi
 #   image: /images/sections/projects/nome-file.png
@@ -21,7 +23,7 @@ projects:
   role: Full-Stack Developer
   timeline: "Gen 2026 - in corso"
   url: "https://anconasolidale.org/"
-  summary: Portale pubblico del progetto Community Land dei Salesiani per il Sociale per la comunità di Ancona. Gestione di servizi, eventi, luoghi e contatti, con contenuti multilingua e mappa dei luoghi (PostGIS). Backend in Go (Gin, GORM, JWT, Swagger), frontend in Vue 3 con Vite, Pinia e TailwindCSS, deploy con Docker e Caddy.
+  summary: Portale pubblico del progetto Community Land dei [Salesiani per il Sociale](https://www.salesianiperilsociale.it/) per la comunità di Ancona. Gestione di servizi, eventi, luoghi e contatti, con contenuti multilingua e mappa dei luoghi (PostGIS). Backend in Go (Gin, GORM, JWT, Swagger), frontend in Vue 3 con Vite, Pinia e TailwindCSS, deploy con Docker e Caddy.
   tags: ["webapp", "pwa", "go", "vue", "postgresql", "docker"]
 
 - name: Empowerment delle Donne
@@ -37,3 +39,19 @@ projects:
   timeline: "Lug 2026 - in corso"
   summary: Piattaforma di monitoraggio (CRM) del progetto "Mete di Inclusione Urbana 2" di Roma Capitale. Gestione delle schede dei beneficiari, del catalogo delle azioni e delle tre linee di intervento (Orientare, Formare, Abitare). Backend in Go, frontend in Vue 3 con TailwindCSS, PostgreSQL in container.
   tags: ["crm", "pwa", "go", "vue", "postgresql"]
+
+- name: AISA
+  image: /images/sections/projects/aisa.jpg
+  role: Ricerca e sviluppo
+  timeline: "Mag 2026 - in corso"
+  url: "https://www.kairoscoopsociale.it/"
+  summary: Artificial Intelligence for Social Assistance, progetto di ricerca con Kairos su come l'intelligenza artificiale possa supportare il lavoro degli operatori sociali, riducendo il carico burocratico e lasciando più tempo per le persone.
+  tags: ["ai", "ricerca"]
+
+- name: AIRONI
+  image: /images/sections/projects/aironi.png
+  role: Progettazione e sviluppo
+  timeline: "Set 2025 - in corso"
+  url: "https://www.lanuovaarca.org/chi-siamo/"
+  summary: Progetto della Nuova Arca per il bando Pr@m-II-S della Regione Lazio, dedicato all'intelligenza artificiale a sostegno dell'inclusione sociale. Seguo sia la progettazione sia la parte tecnica. Il progetto è in fase iniziale e punta a esplorare nuove applicazioni dell'IA per le persone in condizione di fragilità.
+  tags: ["ai", "progettazione"]

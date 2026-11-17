@@ -44,15 +44,27 @@
 
 // ---------- Chi sono: pulsante CV accanto ai contatti ----------
 .about-section {
-  .text-container {
-    display: inline-flex;
+  // icone dei contatti e pulsante CV su un'unica riga, centrati in verticale
+  .about-actions {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    vertical-align: middle;
-    margin-right: 0.5rem;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
   }
 
-  .text-container + a .btn {
-    vertical-align: middle;
+  .about-actions .social-link {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    // il primo link ha padding interno: lo compenso per allinearlo al testo
+    margin-left: -0.5rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      line-height: 1;
+    }
   }
 }
 
@@ -337,8 +349,10 @@ html[data-theme='dark'] .tech-orbit {
 // ---------- Progetti: griglia fluida (niente Filterizr, niente pixel fissi) ----------
 .projects-section {
   .filtr-projects .row {
-    display: flex;
-    flex-wrap: wrap;
+    // griglia fluida: colonne da almeno 18rem, tutte della stessa larghezza
+    // (un'ultima card da sola non si allarga su tutta la riga)
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(#{unquote("min(18rem, 100%)")}, 1fr));
     align-items: stretch;
     gap: 1.25rem;
     margin: 0;
@@ -346,8 +360,7 @@ html[data-theme='dark'] .tech-orbit {
   }
 
   .filtr-item {
-    // annulla le colonne bootstrap: base minima 18rem, poi cresce per riempire la riga
-    flex: 1 1 18rem;
+    // annulla le colonne bootstrap: la larghezza la decide la griglia
     width: auto;
     max-width: 100%;
     padding: 0;
