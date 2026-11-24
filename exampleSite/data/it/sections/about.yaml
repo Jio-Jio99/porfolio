@@ -29,10 +29,10 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "info@gioelezoccoli.org"
 
-# Sostituisci static/files/resume.pdf con il tuo CV
+# Sostituisci static/files/resume-it.pdf con il tuo CV
 resourceLinks:
 - title: "Il mio CV"
-  url: "files/resume.pdf"
+  url: "files/resume-it.pdf"
 
 # Tecnologie mostrate in orbita accanto alla presentazione (solo icone).
 # Le icone stanno in assets/images/sections/skills/.

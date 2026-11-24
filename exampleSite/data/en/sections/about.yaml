@@ -29,10 +29,10 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "info@gioelezoccoli.org"
 
-# Replace static/files/resume.pdf with your own CV
+# Replace static/files/resume-en.pdf with your own CV
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
+  url: "files/resume-en.pdf"
 
 # Technologies shown orbiting next to the intro (icons only).
 # Icons live in assets/images/sections/skills/.

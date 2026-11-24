@@ -12,7 +12,9 @@ contactInfo:
 
 # frasi che scorrono sotto il nome
 summary:
-  - Sono uno sviluppatore full-stack
-  - Costruisco web app con Go e Vue.js
-  - Ho lavorato come formatore informatico
-  - Lavoro con il terzo settore
+  - "Sviluppatore full-stack"
+  - "Tecnologia al servizio del sociale"
+  - "Dal database all'interfaccia"
+  - "Ricerca sull'AI per il terzo settore"
+  - "Studente di Computer Science alla Sapienza"
+  - "Formatore informatico"

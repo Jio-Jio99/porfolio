@@ -13,7 +13,9 @@ contactInfo:
 
 # rotating summary lines under your name
 summary:
-  - I am a full-stack developer
-  - I build web apps with Go and Vue.js
-  - I have worked as an IT trainer
-  - I work with the non-profit sector
+  - "Full-stack developer"
+  - "Technology for social impact"
+  - "From database to interface"
+  - "AI research for the non-profit sector"
+  - "Computer Science student at Sapienza"
+  - "IT trainer"
